@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0qGDc64Y6U6xzy49keq0GQ" Reference="dtpykSGQuUmHUEIbOP3G-A/dQdoCY-PPUqBL35hKvXAPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://acme-test.uipath.com/employees" CvTextArea="659, 409, 172, 22" CvTextArgument="Robert T Tatum" CvType="Text" DesignTimeRectangle="603, 393, 285, 80" DesignTimeScaleFactor="1" FriendlyName="'Robert T Tatum'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='col-md-3 employees-alternative centered' tag='DIV' aaname='                                                                       ' check:innerText='Robert T Tatum' /&gt;" Guid="45854ee6-ec75-471e-9e45-fe3fca24bc93" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvElementArea="600, 388, 289, 84" CvTextArea="659, 409, 172, 22" CvTextArgument="Robert T Tatum" CvType="Button" DesignTimeRectangle="659, 403, 171, 60" ElementType="Text" FriendlyName="'Robert T Tatum'" FullSelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' class='name-alternative' tag='DIV' /&gt;&quot;, EmployeeName)]" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl aaname='{0}' class='name-alternative' tag='DIV' type='' check:innerText='{0}' /&gt;&quot;, EmployeeName)]" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1d32edf81bb154b9ce3ffbf028e83142.png" xmlns="">0u_CbjtT1sUClrGbSdhU8bA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="Robert T Tatum" Name="EmployeeName" />
+    </scg:List>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
